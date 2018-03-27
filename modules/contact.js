@@ -14,7 +14,7 @@ var Contact = React.createClass({
                     }
                     src = {
                         'http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico'
-                    } > < /img> <
+                    } /> <
                     div className = {
                         'contactContent'
                     } >
@@ -38,7 +38,7 @@ var Contact = React.createClass({
                         this.props.item.email
                     } <
                     /p> <
-                    /div> <
-                    /div>
-                );
+                    /div> </div>
+                )
             }
+    });

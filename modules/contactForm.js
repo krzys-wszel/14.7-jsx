@@ -8,73 +8,40 @@ var ContactForm = React.createClass({
                 'contactForm'
             } >
             <
-            label htmlFor = {
-                'name'
-            } > Imię: < /label> <
-            input className = {
-                'form-control'
-            }
-            type = {
+            input type = {
                 'text'
             }
-            id = {
-                'name'
-            }
             placeholder = {
-                'Wpisz imię'
+                'Imię'
             }
             value = {
                 this.props.contact.firstName
-            } > < /input> <
-            label htmlFor = {
-                'surname'
-            } > Nazwisko: < /label> <
-            input className = {
-                'form-control'
             }
-            type = {
+            /> <
+            input type = {
                 'text'
             }
-            id = {
-                'surname'
-            }
             placeholder = {
-                'Wpisz nazwisko'
+                'Nazwisko'
             }
             value = {
                 this.props.contact.lastName
-            } > < /input> <
-            label htmlFor = {
-                'email'
-            } > Email: < /label> <
-            input className = {
-                'form-control'
             }
-            type = {
-                'text'
-            }
-            id = {
+            /> <
+            input type = {
                 'email'
             }
             placeholder = {
-                'Wpisz e-mail'
+                'Email'
             }
             value = {
                 this.props.contact.email
-            } > < /input>
-
-
-            <
+            }
+            /> <
             button type = {
                 'submit'
-            }
-            className = {
-                'button'
-            } > Dodaj kontakt < /button>
-
-            <
-            /form >
-        )
-    );
-}
+            } > Dodaj kontakt < /button> <
+            /form>
+        );
+    }
 });
